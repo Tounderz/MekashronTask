@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from 'axios';
 
 export const signUp = async (userName, password) => {
-    const {data} = await axios.post('https://localhost:44339/auth/login', { UserName: userName, Password: password} );
+    const {data} = await axios.post('http://mekashronTask.somee.com/auth/login', { UserName: userName, Password: password }, { mode: 'cors' } );
     return data;
 }

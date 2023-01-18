@@ -6,7 +6,7 @@ import { signUp } from '../http/auth';
 const LoginPage = () => {
     const [modalVisible, setModalVisible] = useState(false);
     const [error, setError] = useState(false);
-    const [details, setDetails] = useState(null);
+    const [details, setDetails] = useState();
     const [message, setMessage] = useState('');
     const [userName, setUserName] = useState('');
     const [password, setPassword] = useState('');
@@ -18,8 +18,10 @@ const LoginPage = () => {
             setMessage('Successful input!');
             setError(false);
         } catch (e) {
-            setMessage(e.response.data.message);
-            setDetails(null);
+            if (e?.response?.data?.message) {
+                setMessage(e.response.data.message);
+            }
+            setDetails();
             setError(true);
         } finally {
             setModalVisible(true);

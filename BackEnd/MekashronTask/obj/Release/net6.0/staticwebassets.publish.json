@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yRGmzmhhyhC1ieAnJAV+F1aYp5JEeqFP7yth5GNhJSE=",
+  "Source": "MekashronTask.API",
+  "BasePath": "_content/MekashronTask.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

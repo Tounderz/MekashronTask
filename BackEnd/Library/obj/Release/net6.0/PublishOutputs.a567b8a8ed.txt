@@ -1,0 +1,3 @@
+C:\Users\basta\source\repos\MekashronTask\BackEnd\publish\Mekashron.Data.dll
+C:\Users\basta\source\repos\MekashronTask\BackEnd\publish\Mekashron.Data.deps.json
+C:\Users\basta\source\repos\MekashronTask\BackEnd\publish\Mekashron.Data.pdb

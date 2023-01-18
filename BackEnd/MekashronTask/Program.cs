@@ -27,7 +27,7 @@ var app = builder.Build();
     app.UseAuthorization();
 
     app.UseCors(options => options
-       .WithOrigins(new[] { "http://localhost:3000", "http://localhost:8080", "http://localhost:4200" })
+       .WithOrigins(new[] { "http://localhost:3000", "http://localhost:8080", "http://localhost:4200", "https://tounderz.github.io", "http://mekashrontask.42web.io" })
        .AllowAnyHeader()
        .AllowAnyMethod()
     );
